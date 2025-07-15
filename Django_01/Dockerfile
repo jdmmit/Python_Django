@@ -16,11 +16,11 @@ RUN apt-get install -y git curl nano
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # Carpeta de trabajo dentro del contenedor
-WORKDIR /app
+WORKDIR /mysite/mysite
 
-COPY . /app
+COPY . /mysite
 
-COPY requirements.txt /app/
+COPY requirements.txt /mysite/mysite
 RUN pip install -r requirements.txt
 
 EXPOSE 8000
