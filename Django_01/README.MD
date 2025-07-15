@@ -112,6 +112,3 @@ Abre tu navegador y entra a:
 
 ---
 
-## 🤔 ¿Te gustaría personalizarlo para tu proyecto?  
-¿Necesitas ejemplos de cómo instalar librerías de Python o Django?  
-¡Dímelo y te ayudo!
